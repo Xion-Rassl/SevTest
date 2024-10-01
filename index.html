@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>— Severstal — Game Splav</title>
+<link rel="shortcut icon" href="TemplateData/Vector.svg">
+<link rel="stylesheet" href="TemplateData/style.css?2">
+<!-- <link rel="manifest" href="manifest.webmanifest"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<!-- <link rel="manifest" href="manifest.webmanifest"> -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="google" content="notranslate">
+<link rel="stylesheet" href="./style.css?4">
+<meta name="theme-color" content="#002F6C">
+<meta name="msapplication-TileColor" content="#002F6C">
+</head>
+
+<body>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+        ym(98153740, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/98153740" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <div class="container">
+      <div class="first-screen">
+        <div class="header">
+          <img src="./TemplateData/logo2.svg">
+        </div>
+        <h1 class="header-title"><span class="blue">Создай сплав твоей</span> идеальной работы</h1>
+        <div class="first-screen__button-cont">
+          <div class="arrows"></div>
+          <div class="arrows-mobile up">
+            <img src="./TemplateData/assets/leftUp.svg">
+            <img src="./TemplateData/assets/rightUp.svg">
+          </div>
+          <button class="action-button">
+            <img class="button-img" src="./TemplateData/assets/button_clear.webp">
+            <img src="./TemplateData/assets/help-arm-tap.webp" class="arm">
+            </button>
+          <div class="arrows sec"></div>
+          <div class="arrows-mobile down">
+            <img src="./TemplateData/assets/leftDown.svg">
+            <img src="./TemplateData/assets/rightDown.svg">
+          </div>
+        </div>
+        <div class="first-screen-text">
+          <span>«Северсталь»</span>
+          <span class="down-text">Разные люди. <span class="blue">Один характер</span></span>
+        </div>
+      </div>
+    
+      <div class="instruction">
+        <img src="./TemplateData/phone.svg">
+      </div>
+    
+      <div class="body-container">
+        <div class="body-header">
+          <img src="./TemplateData/leftMobile.svg">
+          <span class="body-header-text">Составь свой <span class="blue">идеальный<br> сплав работы мечты<br></span> вместе с «Северсталью»</span>
+          <img src="./TemplateData/rightMobile.svg">
+        </div>
+        <div id="unity-container">
+          <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1"></canvas>
+          <div class="loading">
+            <img class="animation-item" src="./TemplateData/logo.jpg">
+          </div>
+    
+          <div id="unity-loading-bar">
+            <div id="unity-progress-bar-empty">
+              <div id="unity-progress-bar-full"></div>
+            </div>
+          </div>
+          <div id="unity-warning"> </div>
+        </div>
+      </div>
+    
+    </div>
+    <audio id="sound" src="./TemplateData/assets/button.mp3"></audio>
+    <script src="./TemplateData/script.js">
+    </script>
+    
+
+    <script type="text/javascript">
+        const METRIKA_COUNTER_ID = 98153740;
+
+        function SendYandexMetrica(eventName, jsonData) {
+            console.log("Sending Yandex Metrica event:", eventName, jsonData);
+            if (jsonData === null || jsonData === undefined) {
+                jsonData = '{}'; // Use an empty JSON object as a default
+            }
+            console.log("Json parsed:", JSON.parse(jsonData));
+            ym(METRIKA_COUNTER_ID, 'reachGoal', eventName, JSON.parse(jsonData));
+        }
+    </script>
+    <script>
+      
+    </script>
+
+</body>
+</html>
